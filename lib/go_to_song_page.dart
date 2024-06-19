@@ -27,9 +27,10 @@ class _GoToSongPageState extends State<GoToSongPage> {
           Text(
             'GO-TO SONG',
             style: TextStyle(
-              fontSize: 24,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
-              color: Color(0xFF0077CC),
+              color: Color(0xFF87D5F9),
+              fontFamily: 'Bitter-ExtraBold',
             ),
           ),
           SizedBox(height: 16),

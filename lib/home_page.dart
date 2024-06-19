@@ -5,10 +5,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Welcome to Seoyoun\'s Portfolio!',
+        'Welcome to Seoyoun\'s Portfolio!\n',
         style: TextStyle(
-          fontSize: 24,
+          fontSize: 70,
           fontWeight: FontWeight.bold,
+          fontFamily: 'PoetsenOne',
+          color: Color(0xFFFFFFFF),
         ),
       ),
     );

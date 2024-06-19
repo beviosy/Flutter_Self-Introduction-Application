@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Portfolio of Seoyoun',
       theme: ThemeData(
-        primaryColor: Color(0xFF0077CC),
+        primaryColor: Color(0xFF03547D),
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: Color(0xFF0077CC),
-          secondary: Color(0xFF90DDF3),
+          primary: Color(0xFF034567),
+          secondary: Color(0xFF034567),
         ),
       ),
       home: MainScreen(),

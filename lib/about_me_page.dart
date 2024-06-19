@@ -11,9 +11,10 @@ class AboutMePage extends StatelessWidget {
           Text(
             'ABOUT ME',
             style: TextStyle(
-              fontSize: 24,
+              fontSize: 40,
               fontWeight: FontWeight.bold,
-              color: Color(0xFF0077CC),
+              color: Color(0xFF87D5F9),
+              fontFamily: 'Bitter-ExtraBold',
             ),
           ),
           SizedBox(height: 30),
@@ -30,8 +31,9 @@ class AboutMePage extends StatelessWidget {
           Text(
             'Name: 장서연\nUniv: 단국대학교\nMajor: 소프트웨어학과\n\n[Keyword ;]\n매 순간 열심히 노력하여 성장하려고 하는 코더',
             style: TextStyle(
-              fontSize: 16,
-              color: Colors.white,
+              fontSize: 20,
+              color: Color.fromARGB(255, 237, 177, 177),
+              fontFamily: 'IBMPlexSansKR',
             ),
           ),
           SizedBox(height: 16),
@@ -44,6 +46,8 @@ class AboutMePage extends StatelessWidget {
             '그리고 항상 새로운 기술과 도전에 열려있는 자세를 유지하고 있고, 끊임없이 배우고 성장하기 위해 노력하고 있습니다.',
             style: TextStyle(
               fontSize: 16,
+              color: Color(0xFFFFFFFF),
+              fontFamily: 'IBMPlexSansKR',
             ),
           ),
         ],

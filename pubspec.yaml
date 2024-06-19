@@ -29,3 +29,37 @@ flutter:
   assets:
    - assets/images/
    - assets/
+  fonts:
+    - family: Bitter
+      fonts: 
+       - asset: assets/fonts/Bitter-VariableFont_wght.ttf
+    - family: Bitter-ExtraBold
+      fonts: 
+       - asset: assets/fonts/Bitter-ExtraBold.ttf
+    - family: Bitter-Italic
+      fonts:
+       - asset: assets/fonts/Bitter-Italic-VariableFont_wght.ttf
+    - family: GowunDodum
+      fonts:
+       - asset: assets/fonts/GowunDodum-Regular.ttf
+    - family: IBMPlexSansKR-Bold
+      fonts:
+       - asset: assets/fonts/IBMPlexSansKR-Bold.ttf
+    - family: IBMPlexSansKR-Light
+      fonts:
+       - asset: assets/fonts/IBMPlexSansKR-Light.ttf
+    - family: IBMPlexSansKR
+      fonts:
+       - asset: assets/fonts/IBMPlexSansKR-Regular.ttf
+    - family: PoetsenOne
+      fonts:
+       - asset: assets/fonts/PoetsenOne-Regular.ttf
+    - family: RobotoSlab
+      fonts:
+       - asset: assets/fonts/RobotoSlab-VariableFont_wght.ttf
+    - family: UbuntuSans
+      fonts:
+       - asset: assets/fonts/UbuntuSans-VariableFont_wdth,wght.ttf
+    - family: UbuntuSans-Italic
+      fonts:
+       - asset: assets/fonts/UbuntuSans-Italic-VariableFont_wdth,wght.ttf       

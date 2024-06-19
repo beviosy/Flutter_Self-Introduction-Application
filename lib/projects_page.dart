@@ -51,6 +51,7 @@ class ProjectItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: EdgeInsets.symmetric(vertical: 8),
+      color: Color(0xFF001F3F),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -62,7 +63,7 @@ class ProjectItem extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
-                color: Color(0xFF077591),
+                color: Color(0xFFF0F8FF),
               ),
               textAlign: TextAlign.center,
             ),

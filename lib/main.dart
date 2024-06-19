@@ -21,6 +21,11 @@ class MyApp extends StatelessWidget {
           primary: Color(0xFF034567),
           secondary: Color(0xFF034567),
         ),
+        scaffoldBackgroundColor: Color(0xFF001F3F),
+        textTheme: TextTheme(
+          bodyLarge: TextStyle(color: Color(0xFFF0F8FF)),
+          bodyMedium: TextStyle(color: Color(0xFFF0F8FF)),
+        ),
       ),
       home: MainScreen(),
     );

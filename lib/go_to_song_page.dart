@@ -36,7 +36,7 @@ class _GoToSongPageState extends State<GoToSongPage> {
           SizedBox(height: 16),
           Text(
             '제가 가장 좋아하는 노래는 Nicky Youre와 dazy가 부른 Sunroof라는 곡입니다.',
-            style: TextStyle(fontSize: 16),
+            style: TextStyle(fontSize: 16, color: Color(0xFFF0F8FF)),
           ),
           SizedBox(height: 16),
           Container(
@@ -46,7 +46,7 @@ class _GoToSongPageState extends State<GoToSongPage> {
           SizedBox(height: 16),
           Text(
             '[Nicky Youre, dazy - Sunroof (Official Music Video)]',
-            style: TextStyle(fontSize: 16, color: Color(0xFF077591)),
+            style: TextStyle(fontSize: 16, color: Color(0xFFF0F8FF)),
           ),
         ],
       ),

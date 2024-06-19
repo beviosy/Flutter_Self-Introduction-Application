@@ -16,17 +16,19 @@ class ProjectsPage extends StatelessWidget {
               color: Color(0xFF0077CC),
             ),
           ),
-          SizedBox(height: 16),
+          SizedBox(height: 30),
           ProjectItem(
-            imageUrl: 'assets/qrcode.jpg',
+            imageUrl: 'assets/images/qrcode.jpg',
             title: 'QR Code Hacking',
           ),
+          SizedBox(height: 16),
           ProjectItem(
-            imageUrl: 'assets/hat.jpg',
+            imageUrl: 'assets/images/hat.jpg',
             title: 'Human Ability Test',
           ),
+          SizedBox(height: 16),
           ProjectItem(
-            imageUrl: 'assets/subway.jpg',
+            imageUrl: 'assets/images/subway.jpg',
             title: 'Analysis of Seoul Subway Using Pandas',
           ),
         ],

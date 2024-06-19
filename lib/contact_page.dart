@@ -16,17 +16,17 @@ class ContactPage extends StatelessWidget {
               color: Color(0xFF0077CC),
             ),
           ),
-          SizedBox(height: 16),
+          SizedBox(height: 30),
           Center(
             child: Column(
               children: [
-                Image.asset('assets/me.jpg', width: 200, height: 200),
+                Image.asset('assets/images/me.jpg', width: 200, height: 200),
                 SizedBox(height: 16),
-                Image.asset('assets/me2.jpg', width: 200, height: 200),
+                Image.asset('assets/images/me2.jpg', width: 200, height: 200),
               ],
             ),
           ),
-          SizedBox(height: 16),
+          SizedBox(height: 40),
           Text(
             'Name: 장서연\nUniv: 단국대학교\nMajor: 소프트웨어학과',
             style: TextStyle(fontSize: 16),
